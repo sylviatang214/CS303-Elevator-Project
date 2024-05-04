@@ -9,7 +9,7 @@ can always presses either up or down button.
 null, this accounts for people who got on the elevator but decided to press a floor that is going in opposite direction as the elevator is heading.
 Once the queue clears up and the elevator heads in the opposite direction, the floor call will be reached to drop off this person.
 
-**UML CLass Diagram**
+**UML CLass Diagram:**
 
 Class: Node
 +next: node
@@ -46,3 +46,11 @@ Class: Elevator
 +move(&list: Doubly_List): void
 +print(): void
 
+**Efficiency of Algorithm:**
+
+**Individual Contribution:** I worked alone on this project
+
+**References:**
+https://icarus.cs.weber.edu/~dab/cs1410/textbook/9.Classes_And_Objects/uml.html
+https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/
+https://stackoverflow.com/questions/2485963/c-alignment-when-printing-cout

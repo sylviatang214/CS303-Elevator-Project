@@ -42,7 +42,7 @@ int main() {
 		cout << endl << endl;
 	}
 
-	system("pause");
+	cout << "=================================================" << endl << endl;
 
 	//TEST 2: Single elevators case
 	cout << "\nTEST 2: Single elevator case" << endl << endl;

@@ -47,6 +47,10 @@ Class: Elevator
 +print(): void
 
 **Efficiency of Algorithm:**
+Best case: O(n)
+Worst case: O(n)
+Since I have a print for each floor change iteration, the functions only run n time(s) while bigger looping is done in
+main.
 
 **Individual Contribution:** I worked alone on this project
 

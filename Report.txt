@@ -50,7 +50,7 @@ Class: Elevator
 Best case: O(n)
 Worst case: O(n)
 Since I have a print for each floor change iteration, the functions only run n time(s) while bigger looping is done in
-main.
+main. This can be improved if I can figure out a way to implement O(log n).
 
 **Individual Contribution:** I worked alone on this project
 

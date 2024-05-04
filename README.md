@@ -39,10 +39,10 @@ Class: Elevator
 -direction: string
 -id: char
 +elevator();
-+elevator(int f, string d);
-+elevator(int f, string d, char i);
-+void target_floor(Doubly_List & list)
-+void create_dropoff(Doubly_List& list, char ID)
-+void move(Doubly_List &list)
-+void print()
++elevator(floor: int, direction: string)
++elevator(floor: int, direction: string, id: char)
++target_floor(&list: Doubly_List): void
++create_dropoff(&list: Doubly_List, id: char): void
++move(&list: Doubly_List): void
++print(): void
 
